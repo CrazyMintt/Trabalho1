@@ -1,0 +1,162 @@
+/* Estilos Gerais */
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+#root {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.title {
+    color: black;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.list {
+    padding: 5px 0;
+    width: 50%;
+}
+
+.li-list, .li-list-crud, .li-list-detalhada {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    list-style: none;
+    margin: 10px;
+}
+
+.li-list-detalhada, .li-list-crud {
+    border-left: 5px solid #667eea;
+    padding-left: 15px;
+}
+
+.li-list-detalhada strong {
+  color: #667eea;
+}
+
+.li-list:hover, a:hover {
+  color: red;
+}
+
+.li-list:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.detalhada, .datalist, .crud, .editar, .adicionar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+} 
+
+.botao-adicionar {
+    background-color: rgb(70, 255, 70);
+    border: 2px solid green;
+    border-radius: 4px;
+    padding: 5px 20px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.botao-adicionar:hover {
+  transform: scale(1.1);
+  background-color: rgb(0, 255, 0);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  border-color: green;
+  color: inherit;
+}
+
+.botao-editar {
+  background-color: yellow;
+  border: 2px solid rgb(182, 182, 0);
+  border-radius: 4px;
+  padding: 5px 20px;
+  margin: 0px 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.botao-editar:hover {
+  transform: scale(1.1);
+  background-color: rgb(255, 223, 0);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  border-color: rgb(190, 190, 0);
+}
+
+.botao-excluir {
+    background-color: red;
+    border: 2px solid rgb(148, 0, 0);
+    border-radius: 4px;
+    padding: 5px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.botao-excluir:hover {
+  transform: scale(1.1);
+  background-color: rgb(204, 0, 0);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  border-color: rgb(148, 0, 0);
+}
+
+.botao-enviar {
+    background-color: rgb(70, 255, 70);
+    border: 2px solid green;
+    border-radius: 4px;
+    padding: 5px 20px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.botao-enviar:hover {
+  transform: scale(1.1);
+  background-color: rgb(0, 255, 0);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  border-color: green;
+}
+
+.input-crud {
+    border: 2px solid rgb(153, 153, 153);
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.input-crud:focus {
+    outline-color: rgb(57, 57, 57);
+    border: 2px solid rgb(153, 153, 153);
+    border-radius: 4px;
+}
+
+.header-inicial {
+    margin-left: -20px;
+    margin-right: 20px;
+}
+
+.header {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+    margin-left: -32px;
+    margin-right: -32px;
+    margin-top: -32px;
+}
