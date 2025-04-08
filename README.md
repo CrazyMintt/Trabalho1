@@ -1,12 +1,16 @@
-# Getting Started with Create React App
+# Trabalho 1
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Como rodar
 
-## Available Scripts
+Primeiro, abrir 2 terminais, em um deles:
 
-In the project directory, you can run:
+### Escrever 'cd/backend'
 
-### `npm start`
+Para entrar na pasta de backend do projeto e:
+
+### Escrever 'npm init'
+
+Para baixar o node_modules e então:
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
