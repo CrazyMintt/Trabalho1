@@ -10,7 +10,7 @@ function DataList() {
     fetch("http://localhost:8800")
       .then((response) => response.json())
       .then((data) => {
-        setData(data.slice(0, 10));
+        setData(data);
       });
   }, []);
 
