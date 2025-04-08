@@ -32,3 +32,10 @@
    ```
    npm start
    ```
+### 3. MySQL
+1. Abrir o arquivo atividade.sql que esta junto ao projeto antes das pastas de back e front end
+2. Rodar o script
+3. Caso de erro de senha, rodar o seguinte codigo
+   ```bash
+   ALTER USER 'usuario'@'localhost' IDENTIFIED BY 'bruno';
+   ```
