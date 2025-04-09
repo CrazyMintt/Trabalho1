@@ -37,5 +37,5 @@
 2. Rodar o script
 3. Caso de erro de senha, rodar o seguinte codigo, ou alterar a senha no arquivo db.js
    ```bash
-   ALTER USER 'usuario'@'localhost' IDENTIFIED BY 'bruno';
+   ALTER USER 'root'@'localhost' IDENTIFIED BY 'bruno';
    ```
