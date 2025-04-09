@@ -42,7 +42,9 @@ function Crud() {
               <Link to="/crud/editar">
                 <button className="botao-editar">Editar</button>
               </Link>
-              <button className="botao-excluir" onClick={() => excluirVeiculo(item)}>Excluir</button>
+              <Link to="/crud">
+                <button className="botao-excluir" onClick={() => excluirVeiculo(item)}>Excluir</button>
+              </Link>
             </li>
           </Link>
         ))}
